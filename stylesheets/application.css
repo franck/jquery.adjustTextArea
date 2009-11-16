@@ -1,0 +1,12 @@
+input textarea {
+  font-size:1em;
+  font-family:verdana;
+  width:auto;
+  height:auto;
+}
+
+label.desc {
+  display:block;
+}
+
+.error { color:red; }

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Adjust Text Area - JQuery Plugin</title>
+    <link href='stylesheets/application.css' media='all' rel='stylesheet' type='text/css' />
+    <!--[if IE]><script src="javascripts/excanvas.js"></script><![endif]-->
+  </head>
+  <body>
+    
+    <h1>Editing description</h1>
+    
+    <form id="edit_profile_1" class="standard" method="post" enctype="multipart/form-data" action="/fr/profiles/franck-d-agostini">
+      <p>
+      <label class="desc" for="description">Description 1</label>
+      <textarea cols="80" class="description adapt" name="description" rows="10"></textarea>
+      </p>
+      
+      <p>
+      <label class="desc" for="description">Description 2</label>
+      <textarea cols="80" class="description adapt" name="description" rows="10"></textarea>
+      </p>
+      
+      <p><input id="submit" type="submit" value="Enregistrer" name="commit"/></p>
+    </form>
+    
+    
+    <script src='javascripts/jquery-1.3.2.js'></script>
+    <script src='javascripts/jquery.adjustTextArea.js'></script>
+    <script src='javascripts/application.js'></script>
+  </body>
+</html>
+
